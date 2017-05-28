@@ -16,7 +16,8 @@
     in modo da avere un modulo quadro di R(i) pari a Pn; Varianza=1 Valore Atteso=0 per la Gaussiana (AWGN)
     Le 1000 sequenze di rumore tenderanno ad una potenza media pari a Pn per infiniti campioni (nell'Ipotesi H0)
 
-- Ipotesi H1 (R(i) = n(i) + s(i): All'aumentare dell'SNR (ovvero man mano che si analizzano le 4 sotto-sequenze, dalla più rumorosa in su)
+- Ipotesi H1 (R(i) = n(i) + s(i): 
+  All'aumentare dell'SNR (ovvero man mano che si analizzano le 4 sotto-sequenze, dalla più rumorosa in su)
   deve aumentare la Probabilità di Detection (Pd), ovvero Pr>soglia (potenza segnale R(i)) su almeno il 70% dei 1000 blocchi
   Il grafico della Pd in funzione del SNR tenderà a 1 per SNR->+inf e tenderà a Pfa per SNR->-inf 
   4 punti da interpolare per generare la curva che mostra questo andamento di ddp
